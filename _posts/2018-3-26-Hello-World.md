@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello hooman
+title: Hello
 ---
 
 this will (hopefully) be a journal about my journey after giving up windows for good. It is day 1 right now, about 5>hours
