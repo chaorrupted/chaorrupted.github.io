@@ -51,7 +51,7 @@ you see the sentences above? that is what windows does to us. a hooman's regular
 e. i've always been a big fan of computers
 
 and i think it is time that i leave my comfort zone of games and google chrome to explore and learn.
-belki buna ozenmece de diyebilirsiniz ama insan insana ozenir ne yapalim.
+belki buna özenmece de diyebilirsiniz ama insan insana özenir ne yapalim.
 
 f. its a social thing
 
