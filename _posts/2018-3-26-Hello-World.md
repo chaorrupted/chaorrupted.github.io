@@ -26,7 +26,6 @@ i roughly know what an OS is. linux seems to be a popular choice for those that 
 also for developers of all sorts. i have heard why it is that way but i haven't lived it myself yet.
 
 well.
-
 here we go i guess.
 
 b. windows was annoying.
