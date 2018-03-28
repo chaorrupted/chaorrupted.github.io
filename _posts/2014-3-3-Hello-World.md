@@ -24,7 +24,9 @@ a. i've been learning about what is what.
 i still can't say i know everything there is to know BUT
 i roughly know what an OS is. linux seems to be a popular choice for those that like to get their hands dirty.
 also for developers of all sorts. i have heard why it is that way but i haven't lived it myself yet.
+
 well.
+
 here we go i guess.
 
 b. windows was annoying.
