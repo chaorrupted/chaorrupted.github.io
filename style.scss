@@ -20,7 +20,7 @@ html {
 body {
 	background: $black;
   font: 18px/1.4 $helvetica;
-  color: $black;
+  color: #1C1C1C;
 }
 
 .container {
@@ -122,11 +122,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: #1C1C1C;
   background: $gray;
 }
 ::selection {
-  color: $black;
+  color: #1C1C1C;
   background: $gray;
 }
 
@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $black;
+  color: #1C1C1C;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
