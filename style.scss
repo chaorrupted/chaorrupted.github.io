@@ -127,7 +127,7 @@ img {
 }
 ::selection {
   color: $black;
-  background: $1C1C1C;
+  background: $darkgray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -243,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $1C1C1C;
+  border-bottom: 1px solid $darkgray;
 }
 
 .posts > .post:last-child {
@@ -275,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $1C1C1C;
+  background-color: $darkgray;
 }
 
 footer {
