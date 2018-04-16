@@ -1,0 +1,56 @@
+---
+layout: post
+title: What even is a window manager?
+---
+
+Someone i know had left a .txt file on my computer with only three words in it. 
+
+xmonad
+stumpwm
+dwm
+
+i had no idea what these meant but after sum research i learned these things are called window managers. I wanted to try and install these since i knew it would be a fun learning experience.
+
+so, after a while of browsing around i decided to go ahead and give dwm a chance.
+
+reason? written in C so it is convenient with 140. also, the way to configure dwm is to change the source code directly and recompile. it sure sounds like a hell lot of fun. also a very painful learning experience. but i like suffering anyway, disco inferno, forza adana (ew ew)
+
+so what i did was pretty easy and not actually worth a blog post but ill do anyway.
+
+i just downloaded the source code for dwm,
+compiled it and put it where it is supposed to be.
+
+then created an xsession file and put my background and keyboard commands in it.
+
+that was it, really. ill put battery on and time on the top bar sometime as well.
+
+
+
+using dwm for a couple of days and it really feels nice. Im sure there is still life quality improvements to be done, such as
+ resizing windows easily and removing this tiny little bar i have on the far right of my terminals
+
+
+
+So i took a status bar code from someone, it had cpu freq, batt and time
+
+needed some polishing
+
+the first thing i tried was to put the source code into usr/local/bin/dwm.
+
+now there is one small problem with this action. That is not a directory. That is the executable of my window manager, and by 
+copying some code directly into it i desdroyed my wm. I couldn't start my default session or my dwm session, but luckily there was
+a default xfce session through which i recompiled my dwm and put it where it is supposed to be.
+
+then i realized that *copying the source code into some directory wasn't the way to go.* i compiled and ran the status.c file, and
+ it worked! kind of. It properly gave me the error "energy_now cannot be read"
+
+tracked the BAT0 BAT1 confusion
+
+deleted the calculation chaos, yay for my battery
+
+
+commented the whole cpu thingy
+
+added to .xsession file with a & so that it doesn't wait for it to return.
+
+Works all fine.
